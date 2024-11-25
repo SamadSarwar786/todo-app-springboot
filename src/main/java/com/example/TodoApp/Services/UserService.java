@@ -2,7 +2,6 @@ package com.example.TodoApp.Services;
 
 import com.example.TodoApp.Dtos.ResponseDtos.UserResponseDto;
 import com.example.TodoApp.Model.User;
-import com.example.TodoApp.Repositories.RoleRepo;
 import com.example.TodoApp.Repositories.UserRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +17,6 @@ public class UserService implements UserDetailsService {
 
     @Autowired
     UserRepo userRepo;
-
-    @Autowired
-    RoleRepo roleRepo;
 
     @Autowired
     ModelMapper modelMapper;
