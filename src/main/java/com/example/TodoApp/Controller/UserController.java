@@ -1,9 +1,7 @@
 package com.example.TodoApp.Controller;
 
-import com.example.TodoApp.Dtos.RequestDtos.RegisterUserDto;
 import com.example.TodoApp.Dtos.ResponseDtos.UserResponseDto;
 import com.example.TodoApp.Services.UserService;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

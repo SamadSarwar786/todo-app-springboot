@@ -1,9 +1,6 @@
 package com.example.TodoApp.Services;
 
-import com.example.TodoApp.Dtos.RequestDtos.RegisterUserDto;
 import com.example.TodoApp.Dtos.ResponseDtos.UserResponseDto;
-import com.example.TodoApp.Enums.RoleEnum;
-import com.example.TodoApp.Model.Role;
 import com.example.TodoApp.Model.User;
 import com.example.TodoApp.Repositories.RoleRepo;
 import com.example.TodoApp.Repositories.UserRepo;
@@ -12,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

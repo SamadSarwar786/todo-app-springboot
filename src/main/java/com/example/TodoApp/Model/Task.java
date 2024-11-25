@@ -1,6 +1,5 @@
 package com.example.TodoApp.Model;
 
-import com.example.TodoApp.Enums.Gender;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
