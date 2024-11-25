@@ -46,16 +46,16 @@ ToDoApp is a simple Spring Boot application for managing tasks. It demonstrates 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/samad-sarwar/todoApp.git
-   cd todoApp
+   git clone https://github.com/SamadSarwar786/todo-app-springboot.git
+   cd todo-app-springboot
 2. Configuration
-  spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
-  spring.datasource.username=your-username
-  spring.datasource.password=your-password
-  spring.jpa.hibernate.ddl-auto=update
+ - spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
+ - spring.datasource.username=your-username
+ - spring.datasource.password=your-password
+ - spring.jpa.hibernate.ddl-auto=update
 
 3. Build the project
-   mvn clean install
+  - mvn clean install
 
 4. Run the application:
-   mvn spring-boot:run
+  - mvn spring-boot:run
