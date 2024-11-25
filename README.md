@@ -55,7 +55,9 @@ ToDoApp is a simple Spring Boot application for managing tasks. It demonstrates 
  - spring.jpa.hibernate.ddl-auto=update
 
 3. Build the project
-  - mvn clean install
+   ```bash
+   mvn clean install
 
-4. Run the application:
-  - mvn spring-boot:run
+4. Run the application
+   ```bash
+   mvn spring-boot:run
